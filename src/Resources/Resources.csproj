@@ -4,6 +4,15 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>MicroDomainFlow.BaseResources</PackageId>
+    <Title>Resource files that are in public use.</Title>
+    <Version>0.0.1</Version>
+    <Authors>Arman Espiar</Authors>
+    <Description>Resource of pre-prepared files for public use.</Description>
+    <Copyright>MIT</Copyright>
+    <PackageProjectUrl>https://github.com/MicroDomainFlow/Framework</PackageProjectUrl>
+    <PackageIcon>icon128.png</PackageIcon>
+    <RepositoryUrl>https://github.com/MicroDomainFlow/Framework</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
@@ -73,6 +82,13 @@
 
   <ItemGroup>
     <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\icon128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

@@ -4,11 +4,22 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <AssemblyName>$(MSBuildProjectName)</AssemblyName>
+    <Title>Micro Domain Flow</Title>
+    <Version>0.0.1</Version>
+    <Authors>Arman Espiar</Authors>
+    <Copyright>MIT</Copyright>
+    <Description>Base classes for microservice application.</Description>
+    <PackageProjectUrl>https://github.com/MicroDomainFlow/Framework</PackageProjectUrl>
+    <PackageIcon>icon128.png</PackageIcon>
+    <RepositoryUrl>https://github.com/MicroDomainFlow/Framework</RepositoryUrl>
+    <PackageTags>ddd;microservice;cqrs;</PackageTags>
+    <PackageId>MicroDomainFlow.BaseFramework</PackageId>
   </PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="FluentResults" Version="3.16.0" />
 		<PackageReference Include="FluentValidation" Version="11.10.0" />
-		<PackageReference Include="MassTransit.Abstractions" Version="8.2.5" />
+		<PackageReference Include="MassTransit.Abstractions" Version="8.3.0" />
 		<PackageReference Include="MediatR" Version="12.4.1" />
 		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.10" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
@@ -16,6 +27,12 @@
 		<PackageReference Include="Microsoft.Extensions.Identity.Core" Version="8.0.10" />
 		<PackageReference Include="NewId" Version="4.0.1" />
 		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Include="..\..\..\..\icon128.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
 	</ItemGroup>
 	<ItemGroup>
 	  <ProjectReference Include="..\Resources\Resources.csproj" />
