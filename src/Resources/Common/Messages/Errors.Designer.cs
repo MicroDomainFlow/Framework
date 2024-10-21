@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Resources.Common.Messages {
+namespace MDF.Resources.Common.Messages {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Resources.Common.Messages {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Resources.Common.Messages.Errors", typeof(Errors).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MDF.Resources.Common.Messages.Errors", typeof(Errors).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,7 +61,7 @@ namespace Resources.Common.Messages {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to امکان حذف این {0} وجود ندارد!.
+        ///   Looks up a localized string similar to It is not possible to delete this {0}!.
         /// </summary>
         public static string CanNotDelete {
             get {
@@ -70,7 +70,7 @@ namespace Resources.Common.Messages {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to شماره تلفن همراه قبلا تایید شده است!.
+        ///   Looks up a localized string similar to Mobile number is already verified!.
         /// </summary>
         public static string CellPhoneNumberAlreadyVerified {
             get {
@@ -79,7 +79,7 @@ namespace Resources.Common.Messages {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to نشانی پست الکترونیکی قبلا تایید شده است!.
+        ///   Looks up a localized string similar to Email address is already verified!.
         /// </summary>
         public static string EmailAddressAlreadyVerified {
             get {
@@ -88,7 +88,7 @@ namespace Resources.Common.Messages {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to کد فعال‌سازی صحیح نمی‌باشد!.
+        ///   Looks up a localized string similar to The activation code is not correct!.
         /// </summary>
         public static string InvalidVerificationKey {
             get {
@@ -97,7 +97,7 @@ namespace Resources.Common.Messages {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0} یافت نشد!.
+        ///   Looks up a localized string similar to {0} not found!.
         /// </summary>
         public static string NotFound {
             get {
@@ -106,7 +106,7 @@ namespace Resources.Common.Messages {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to خطای ناشناخته‌ای صورت گرفته است! لطفا با تیم پشتیبانی تماس حاصل فرمایید..
+        ///   Looks up a localized string similar to An unknown error has occurred! Please contact the support team..
         /// </summary>
         public static string UnexpectedError {
             get {

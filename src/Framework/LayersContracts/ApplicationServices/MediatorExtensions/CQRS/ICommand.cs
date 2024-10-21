@@ -3,7 +3,7 @@
 using System.Reflection;
 using System.Text;
 
-namespace MDF.Contract.ApplicationServices.MediatorExtensions.CQRS
+namespace MDF.Framework.LayersContracts.ApplicationServices.MediatorExtensions.CQRS
 {
 	/// <summary>
 	/// جهت علامت گذاری کلاسی که پارامتر‌های ورودی درستور را دارد از این اینترفیس استفاده می‌شود

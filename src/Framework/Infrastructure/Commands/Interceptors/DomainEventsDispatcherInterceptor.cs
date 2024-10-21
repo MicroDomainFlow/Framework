@@ -1,12 +1,12 @@
 ﻿using MassTransit;
 
-using MDF.SeedWork;
+using MDF.Framework.SeedWork;
 
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 
-namespace MDF.Infrastructure.Commands.Interceptors;
+namespace MDF.Framework.Infrastructure.Commands.Interceptors;
 public class DomainEventsDispatcherInterceptor : SaveChangesInterceptor
 {
 	public override async ValueTask<InterceptionResult<int>> SavingChangesAsync(DbContextEventData eventData, InterceptionResult<int> result,

@@ -1,4 +1,4 @@
-﻿namespace MDF.SeedWork
+﻿namespace MDF.Framework.SeedWork
 {
 	public interface IEntity
 	{

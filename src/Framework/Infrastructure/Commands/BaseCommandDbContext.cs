@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Storage;
 
 using System.Globalization;
 
-namespace MDF.Infrastructure.Commands;
+namespace MDF.Framework.Infrastructure.Commands;
 public abstract class BaseCommandDbContext : DbContext
 {
 	protected IDbContextTransaction Transaction;

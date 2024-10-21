@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Numerics;
 
-namespace MDF.Extensions.ExtensionMethods;
+namespace MDF.Framework.Extensions.ExtensionMethods;
 public static class EnumExtensions
 {
 	public static string ToNumericalValueString(this Enum enumValue)

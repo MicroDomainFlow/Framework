@@ -1,6 +1,6 @@
 ﻿using FluentResults;
 
-namespace MDF.Contract.ApplicationServices.MediatorExtensions.CQRS.BaseClasses;
+namespace MDF.Framework.LayersContracts.ApplicationServices.MediatorExtensions.CQRS.BaseClasses;
 /// <summary>
 /// این اینترفیس برای ایجاد درخواست برای استفاده از MediatR و برای بازگشت نتیجه InfoinaResult استفاده می شود.
 /// </summary>

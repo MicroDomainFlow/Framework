@@ -3,7 +3,7 @@
 using System.Reflection;
 using System.Text;
 
-namespace MDF.Contract.ApplicationServices.MediatorExtensions.CQRS;
+namespace MDF.Framework.LayersContracts.ApplicationServices.MediatorExtensions.CQRS;
 /// <summary>
 /// اینترفیسی جهت استفاده به عنوان مارکر برای کلاس‌هایی که پارامتر‌های ورودی را برای جستجو تعیین می‌کنند!
 /// </summary>

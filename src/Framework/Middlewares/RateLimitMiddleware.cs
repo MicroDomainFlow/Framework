@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 
-namespace MDF.Middlewares;
+namespace MDF.Framework.Middlewares;
 public class RateLimitMiddleware
 {
 	private readonly RequestDelegate _next;

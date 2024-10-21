@@ -1,11 +1,11 @@
-﻿using MDF.Contract.Persistence.Commands;
-using MDF.SeedWork;
+﻿using MDF.Framework.LayersContracts.Persistence.Commands;
+using MDF.Framework.SeedWork;
 
 using Microsoft.EntityFrameworkCore;
 
 using System.Linq.Expressions;
 
-namespace MDF.Infrastructure.Commands;
+namespace MDF.Framework.Infrastructure.Commands;
 /// <summary>
 /// جهت استفاده در CommandRepository ها.
 /// اگر فقط از یک ریپازیتوری استفاده میکنید این ریپازیتوری خود شامل یونیت آو ورک میباشد و نیازی به استفاده از کلاس BaseEntityFrameworkUnitOfWork نمی باشد.

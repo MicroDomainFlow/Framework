@@ -1,4 +1,4 @@
-﻿namespace MDF.Contract.Persistence.Queries;
+﻿namespace MDF.Framework.LayersContracts.Persistence.Queries;
 /// <summary>
 /// تعریف کوئری‌های پایه مورد نیاز در سامانه در این Interface قرار می‌گیرد.
 /// </summary>

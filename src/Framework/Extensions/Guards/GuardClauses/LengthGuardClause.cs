@@ -1,8 +1,8 @@
-using Resources.Common.FormattedMessages;
+using MDF.Resources.Common.FormattedMessages;
 
 using System.Collections;
 
-namespace MDF.Extensions.Guards.GuardClauses;
+namespace MDF.Framework.Extensions.Guards.GuardClauses;
 
 public static class LengthGuardClause
 {

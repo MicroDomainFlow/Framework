@@ -1,6 +1,6 @@
-﻿using MDF.SeedWork;
+﻿using MDF.Framework.SeedWork;
 
-namespace MDF.Contract.Persistence.Commands;
+namespace MDF.Framework.LayersContracts.Persistence.Commands;
 /// <summary>
 /// در صورت نیاز به ذخیره و بازیابی eventها از این اینترفیس استفاده می‌شود.
 /// </summary>

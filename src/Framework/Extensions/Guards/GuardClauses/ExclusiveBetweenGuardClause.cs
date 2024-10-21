@@ -1,6 +1,6 @@
-using Resources.Common.FormattedMessages;
+using MDF.Resources.Common.FormattedMessages;
 
-namespace MDF.Extensions.Guards.GuardClauses;
+namespace MDF.Framework.Extensions.Guards.GuardClauses;
 
 public static class ExclusiveBetweenGuardClause
 {

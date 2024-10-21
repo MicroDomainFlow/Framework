@@ -1,7 +1,7 @@
 ﻿
-using MDF.Extensions.ExtensionMethods;
+using MDF.Framework.Extensions.ExtensionMethods;
 
-namespace MDF.Extensions.Results
+namespace MDF.Framework.Extensions.Results
 {
 	public class CustomResult : object
 	{

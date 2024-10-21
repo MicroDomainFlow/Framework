@@ -1,9 +1,9 @@
-﻿using MDF.Contract.Persistence.Queries;
-using MDF.Extensions.ExtensionMethods;
+﻿using MDF.Framework.Extensions.ExtensionMethods;
+using MDF.Framework.LayersContracts.Persistence.Queries;
 
 using Microsoft.EntityFrameworkCore;
 
-namespace MDF.Infrastructure.Queries;
+namespace MDF.Framework.Infrastructure.Queries;
 public static class QueryRepositoryExtensions
 {
 	public static async Task<PagedData<TResult>> ToPagedDataAsync<TEntity, TQuery, TResult>(this IQueryable<TEntity> entities, PageQuery<PagedData<TQuery>> query, Func<TEntity, TResult> selectFunc)

@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace Resources.Extensions;
+namespace MDF.Resources.Extensions;
 public static class Extension
 {
 	public static IServiceCollection AddCommonLocalization(this IServiceCollection services,

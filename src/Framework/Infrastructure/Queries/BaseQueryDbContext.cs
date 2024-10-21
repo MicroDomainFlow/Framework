@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace MDF.Infrastructure.Queries;
+namespace MDF.Framework.Infrastructure.Queries;
 public class BaseQueryDbContext : DbContext
 {
 	public BaseQueryDbContext(DbContextOptions options) : base(options)

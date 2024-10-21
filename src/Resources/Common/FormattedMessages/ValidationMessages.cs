@@ -1,6 +1,6 @@
-﻿using Resources.Common.Messages;
+﻿using MDF.Resources.Common.Messages;
 
-namespace Resources.Common.FormattedMessages;
+namespace MDF.Resources.Common.FormattedMessages;
 /// <summary>
 /// پیام های اعتبار سنجی
 /// درصورتی که از کتابخانه FluentValidation استفاده میکنید نیازی به استفاده از این پیام ها ندارید

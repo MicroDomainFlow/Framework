@@ -1,5 +1,5 @@
-﻿using MDF.Extensions.Guards;
-using MDF.Extensions.Guards.GuardClauses;
+﻿using MDF.Framework.Extensions.Guards;
+using MDF.Framework.Extensions.Guards.GuardClauses;
 
 namespace Framework.Tests.Unit.Guards.GuardClauses;
 public class MaximumLengthGuardClauseTests

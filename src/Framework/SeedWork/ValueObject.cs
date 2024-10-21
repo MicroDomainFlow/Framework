@@ -1,4 +1,4 @@
-﻿namespace MDF.SeedWork;
+﻿namespace MDF.Framework.SeedWork;
 public abstract class ValueObject
 {
 	protected static bool EqualOperator(ValueObject left, ValueObject right)

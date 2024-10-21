@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace MDF.Extensions.ExtensionMethods;
+namespace MDF.Framework.Extensions.ExtensionMethods;
 
 /// <summary>
 /// Contains extension methods for configuring MediatR with a namespace prefix.

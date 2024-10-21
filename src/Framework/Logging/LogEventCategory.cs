@@ -1,4 +1,4 @@
-﻿namespace MDF.Logging;
+﻿namespace MDF.Framework.Logging;
 public enum LogEventCategory
 {
 	Command = 5000,

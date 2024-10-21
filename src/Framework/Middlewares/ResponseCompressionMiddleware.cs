@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Http;
 
 using System.IO.Compression;
 
-namespace MDF.Middlewares;
+namespace MDF.Framework.Middlewares;
 /// <summary>
 /// Compress responses to reduce bandwidth usage.
 /// </summary>

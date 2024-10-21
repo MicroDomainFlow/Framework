@@ -2,9 +2,9 @@
 
 using FluentValidation.Results;
 
-using MDF.SeedWork;
+using MDF.Framework.SeedWork;
 
-namespace MDF.Extensions.Results;
+namespace MDF.Framework.Extensions.Results;
 /// <summary>
 /// این کلاس برای اعتبارسنجی خود ValueObject ها میشباشد
 /// برپایه کتابخانه های FluentResult و FluentValidation نوشته شده است

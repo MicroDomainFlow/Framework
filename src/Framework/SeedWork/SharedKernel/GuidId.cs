@@ -1,12 +1,11 @@
 ﻿using FluentResults;
 
-using MDF.Extensions.Guards;
-using MDF.Extensions.Guards.GuardClauses;
+using MDF.Framework.Extensions.Guards;
+using MDF.Framework.Extensions.Guards.GuardClauses;
+using MDF.Resources.Common;
+using MDF.Resources.Common.FormattedMessages;
 
-using Resources.Common;
-using Resources.Common.FormattedMessages;
-
-namespace MDF.SeedWork.SharedKernel;
+namespace MDF.Framework.SeedWork.SharedKernel;
 public class GuidId : BaseValueObject<Guid?>
 {
 	public const byte FixLength = 36;

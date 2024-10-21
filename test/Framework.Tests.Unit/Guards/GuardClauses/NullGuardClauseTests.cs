@@ -1,7 +1,6 @@
-﻿using MDF.Extensions.Guards;
-using MDF.Extensions.Guards.GuardClauses;
-
-using Resources.Common.FormattedMessages;
+﻿using MDF.Framework.Extensions.Guards;
+using MDF.Framework.Extensions.Guards.GuardClauses;
+using MDF.Resources.Common.FormattedMessages;
 
 namespace Framework.Tests.Unit.Guards.GuardClauses;
 public class NullGuardClauseTests

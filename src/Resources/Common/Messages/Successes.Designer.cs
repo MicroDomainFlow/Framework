@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Resources.Common.Messages {
+namespace MDF.Resources.Common.Messages {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Resources.Common.Messages {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Resources.Common.Messages.Successes", typeof(Successes).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MDF.Resources.Common.Messages.Successes", typeof(Successes).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,7 +61,7 @@ namespace Resources.Common.Messages {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to شماره تلفن همراه با موفقیت تایید گردید..
+        ///   Looks up a localized string similar to The mobile phone number has been successfully verified..
         /// </summary>
         public static string CellPhoneNumberVerified {
             get {
@@ -70,7 +70,7 @@ namespace Resources.Common.Messages {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to نشانی پست الکترونیکی با موفقیت تایید گردید..
+        ///   Looks up a localized string similar to Email address has been successfully verified..
         /// </summary>
         public static string EmailAddressVerified {
             get {
@@ -79,7 +79,7 @@ namespace Resources.Common.Messages {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to اطلاعات {0} با موفقیت درج گردید..
+        ///   Looks up a localized string similar to Information {0} was successfully entered..
         /// </summary>
         public static string SuccessCreate {
             get {
@@ -88,7 +88,7 @@ namespace Resources.Common.Messages {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to اطلاعات {0} با موفقیت حذف گردید..
+        ///   Looks up a localized string similar to Information {0} was successfully deleted..
         /// </summary>
         public static string SuccessDelete {
             get {
@@ -97,7 +97,7 @@ namespace Resources.Common.Messages {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to اطلاعات {0} با موفقیت ویرایش گردید..
+        ///   Looks up a localized string similar to Information {0} was edited successfully..
         /// </summary>
         public static string SuccessUpdate {
             get {
@@ -106,7 +106,7 @@ namespace Resources.Common.Messages {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to گذرواژه با موفقیت تغییر کرد..
+        ///   Looks up a localized string similar to Password changed successfully..
         /// </summary>
         public static string SuccessUserPasswordChanged {
             get {

@@ -1,6 +1,6 @@
-﻿using MDF.Contract.Persistence.Queries;
+﻿using MDF.Framework.LayersContracts.Persistence.Queries;
 
-namespace MDF.Infrastructure.Queries;
+namespace MDF.Framework.Infrastructure.Queries;
 public class BaseQueryRepository<TDbContext> : IQueryRepository
 	where TDbContext : BaseQueryDbContext
 {

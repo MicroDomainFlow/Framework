@@ -1,6 +1,6 @@
 ﻿using FluentResults;
 
-namespace MDF.Contract.ApplicationServices.MediatorExtensions.CQRS;
+namespace MDF.Framework.LayersContracts.ApplicationServices.MediatorExtensions.CQRS;
 /// <summary>
 /// تعریف ساختار مورد نیاز جهت پردازش یک کورئری
 /// شی InfoinaResult حاوی پیام های خطا و یا موفقیت است به همراه مقدار بازگشتی

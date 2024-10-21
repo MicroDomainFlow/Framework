@@ -1,8 +1,8 @@
 ﻿using FluentResults;
 
-using MDF.Extensions.ExtensionMethods;
+using MDF.Framework.Extensions.ExtensionMethods;
 
-namespace MDF.Extensions.Guards;
+namespace MDF.Framework.Extensions.Guards;
 public static class Guard
 {
 	public static Guard<T> CheckIf<T>(T value, string propertyName)

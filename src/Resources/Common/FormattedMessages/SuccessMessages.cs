@@ -1,6 +1,6 @@
-﻿using Resources.Common.Messages;
+﻿using MDF.Resources.Common.Messages;
 
-namespace Resources.Common.FormattedMessages;
+namespace MDF.Resources.Common.FormattedMessages;
 public static class SuccessMessages
 {
 	public static string CellPhoneNumberVerified => Successes.CellPhoneNumberVerified;

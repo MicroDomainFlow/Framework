@@ -1,7 +1,8 @@
-using System.Collections;
-using Resources.Common.FormattedMessages;
+using MDF.Resources.Common.FormattedMessages;
 
-namespace MDF.Extensions.Guards.GuardClauses;
+using System.Collections;
+
+namespace MDF.Framework.Extensions.Guards.GuardClauses;
 
 
 public static class EmptyGuardClause

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 
-namespace MDF.Middlewares;
+namespace MDF.Framework.Middlewares;
 /// <summary>
 /// Verify user rights and role whether is correct.
 /// </summary>

@@ -1,5 +1,5 @@
-﻿using Resources.Common.FormattedMessages;
-using Resources.Common.Messages;
+﻿using MDF.Resources.Common.FormattedMessages;
+using MDF.Resources.Common.Messages;
 
 namespace Framework.Tests.Unit.Resources;
 public class ValidationMessagesTests

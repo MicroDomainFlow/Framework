@@ -1,4 +1,4 @@
-﻿namespace MDF.Contract.Persistence.Queries;
+﻿namespace MDF.Framework.LayersContracts.Persistence.Queries;
 
 /// <summary>
 /// ساختار پایه جهت بازگشت داده‌ها هنگام کوئری گرفتن وقتی که Paging دارد

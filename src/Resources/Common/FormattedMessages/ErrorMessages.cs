@@ -1,6 +1,6 @@
-﻿using Resources.Common.Messages;
+﻿using MDF.Resources.Common.Messages;
 
-namespace Resources.Common.FormattedMessages;
+namespace MDF.Resources.Common.FormattedMessages;
 public static class ErrorMessages
 {
 	public static string CanNotDelete(string fieldName) => string.Format(Errors.CanNotDelete, fieldName);

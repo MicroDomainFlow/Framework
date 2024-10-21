@@ -1,6 +1,6 @@
-﻿using MDF.Contract.Persistence.Commands;
+﻿using MDF.Framework.LayersContracts.Persistence.Commands;
 
-namespace MDF.Infrastructure.Commands;
+namespace MDF.Framework.Infrastructure.Commands;
 /// <summary>
 /// اگر از چند ریپازیتوری استفاده میکنید باید از این یونیت آو ورک استفاده کنید
 /// </summary>

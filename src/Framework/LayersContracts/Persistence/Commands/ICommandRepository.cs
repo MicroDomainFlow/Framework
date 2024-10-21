@@ -1,8 +1,8 @@
-﻿using MDF.SeedWork;
+﻿using MDF.Framework.SeedWork;
 
 using System.Linq.Expressions;
 
-namespace MDF.Contract.Persistence.Commands;
+namespace MDF.Framework.LayersContracts.Persistence.Commands;
 /// <summary>
 /// در صورتی که داده‌ها به صورت عادی ذخیره سازی شوند از این Interface جهت تعیین اعمال اصلی موجود در بخش ذخیره سازی داده‌ها استفاده می‌شود.
 /// </summary>

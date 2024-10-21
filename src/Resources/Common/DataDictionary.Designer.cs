@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Resources.Common {
+namespace MDF.Resources.Common {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Resources.Common {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Resources.Common.DataDictionary", typeof(DataDictionary).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MDF.Resources.Common.DataDictionary", typeof(DataDictionary).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
