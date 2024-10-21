@@ -1,6 +1,6 @@
 ﻿using FluentResults;
 
-namespace Framework.SeedWork;
+namespace MDF.SeedWork;
 public abstract class Entity : IEntity
 {
 	public readonly Result Result = new();

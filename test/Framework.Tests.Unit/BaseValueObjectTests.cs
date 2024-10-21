@@ -1,6 +1,6 @@
 ﻿using FluentResults;
 
-using Framework.SeedWork;
+using MDF.SeedWork;
 
 namespace Framework.Tests.Unit;
 

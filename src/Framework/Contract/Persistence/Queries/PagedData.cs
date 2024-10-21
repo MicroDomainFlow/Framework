@@ -1,4 +1,4 @@
-﻿namespace Framework.Contract.Persistence.Queries;
+﻿namespace MDF.Contract.Persistence.Queries;
 
 /// <summary>
 /// ساختار پایه جهت بازگشت داده‌ها هنگام کوئری گرفتن وقتی که Paging دارد

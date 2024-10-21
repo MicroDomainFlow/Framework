@@ -1,5 +1,5 @@
-﻿using Framework.Extensions.Guards;
-using Framework.Extensions.Guards.GuardClauses;
+﻿using MDF.Extensions.Guards;
+using MDF.Extensions.Guards.GuardClauses;
 
 namespace Framework.Tests.Unit.Guards.GuardClauses;
 public class LessThanOrEqualGuardClauseTests

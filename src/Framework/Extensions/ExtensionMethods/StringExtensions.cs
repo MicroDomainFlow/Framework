@@ -1,4 +1,4 @@
-﻿namespace Framework.Extensions.ExtensionMethods;
+﻿namespace MDF.Extensions.ExtensionMethods;
 
 public static class StringExtensions
 {

@@ -1,6 +1,6 @@
 ﻿using FluentResults;
 
-namespace Framework.Contract.ApplicationServices.MediatorExtensions.CQRS.BaseClasses
+namespace MDF.Contract.ApplicationServices.MediatorExtensions.CQRS.BaseClasses
 {
 	/// <summary>
 	/// این یک رابط است که برای پردازش درخواست های مختلف از نوع MediatR.IRequest<InfoinaResult> استفاده می شود.

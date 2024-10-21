@@ -1,8 +1,8 @@
-﻿using Framework.SeedWork;
+﻿using MassTransit;
 
-using MassTransit;
+using MDF.SeedWork;
 
-namespace Framework.Contract.ApplicationServices;
+namespace MDF.Contract.ApplicationServices;
 /// <summary>
 /// این اینترفیس برای پیاده سازی هندلرهایی که برای رویدادهای دامنه استفاده می شود تعریف شده است.
 /// </summary>

@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Http;
 
 using System.Globalization;
 
-namespace Framework.Middlewares;
+namespace MDF.Middlewares;
 
 /// <summary>
 /// Middleware for setting the request culture based on the "culture" query parameter.

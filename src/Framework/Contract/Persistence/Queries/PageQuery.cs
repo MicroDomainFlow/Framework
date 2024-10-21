@@ -1,4 +1,4 @@
-﻿namespace Framework.Contract.Persistence.Queries;
+﻿namespace MDF.Contract.Persistence.Queries;
 
 /// <summary>
 /// کلاس پایه جهت استفاده به عنوان مارکر برای کلاس‌هایی که پارامتر‌های ورودی را برای جستجو تعیین می‌کنند!

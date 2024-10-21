@@ -1,6 +1,6 @@
 ﻿using FluentResults;
 
-namespace Framework.Contract.ApplicationServices.MediatorExtensions.CQRS;
+namespace MDF.Contract.ApplicationServices.MediatorExtensions.CQRS;
 
 /// <summary>
 /// تعریف ساختار مورد نیاز جهت پردازش یک دستور

@@ -1,4 +1,4 @@
-﻿namespace Framework.SeedWork
+﻿namespace MDF.SeedWork
 {
 	public interface IAggregateRoot : IEntity
 	{

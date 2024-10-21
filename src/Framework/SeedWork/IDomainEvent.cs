@@ -1,4 +1,4 @@
-﻿namespace Framework.SeedWork;
+﻿namespace MDF.SeedWork;
 
 /// <summary>
 /// در این مجموعه از eventها برای تغییر وضعیت و نگهداری تغییرات استفاده می‌شود

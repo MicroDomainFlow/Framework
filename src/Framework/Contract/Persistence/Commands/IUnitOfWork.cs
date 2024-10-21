@@ -1,4 +1,4 @@
-﻿namespace Framework.Contract.Persistence.Commands;
+﻿namespace MDF.Contract.Persistence.Commands;
 /// <summary>
 /// تعریف Interface برای الگوی UnitOfWork جهت مدیریت تراکنش‌ها با دیتابیس در این قسمت انجام شده است
 /// تعریف کامل این الگو در کتاب P of EAA وجود دارد و تعریف اولیه را در آدرس زیر می‌توان مشاهده کرد

@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace Framework.Extensions.Converters;
+namespace MDF.Extensions.Converters;
 public class NullableDateTimeAsUtcValueConverter() : ValueConverter<DateTime?, DateTime?>(
 	v => !v.HasValue ? v : ToUtc(v.Value), v => v.HasValue ? DateTime.SpecifyKind(v.Value, DateTimeKind.Utc) : v)
 {

@@ -1,6 +1,6 @@
 ﻿using FluentResults;
 
-namespace Framework.SeedWork;
+namespace MDF.SeedWork;
 
 /// <summary>
 /// پیاده سازی الگوی AggregateRoot

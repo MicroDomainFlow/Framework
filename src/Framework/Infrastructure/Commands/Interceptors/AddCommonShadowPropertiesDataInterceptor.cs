@@ -1,9 +1,9 @@
-﻿using Framework.SeedWork;
+﻿using MDF.SeedWork;
 
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 
-namespace Framework.Infrastructure.Commands.Interceptors;
+namespace MDF.Infrastructure.Commands.Interceptors;
 
 public class AddCommonShadowPropertiesDataInterceptor : SaveChangesInterceptor
 {

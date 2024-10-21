@@ -1,6 +1,6 @@
 using Resources.Common.FormattedMessages;
 
-namespace Framework.Extensions.Guards.GuardClauses;
+namespace MDF.Extensions.Guards.GuardClauses;
 
 public static class GreaterThanGuardClause
 {

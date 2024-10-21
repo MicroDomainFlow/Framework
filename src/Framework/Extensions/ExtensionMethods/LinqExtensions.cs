@@ -2,7 +2,7 @@
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace Framework.Extensions.ExtensionMethods;
+namespace MDF.Extensions.ExtensionMethods;
 public static class LinqExtensions
 {
 	public static IQueryable<T> OrderByField<T>(this IQueryable<T> q, string SortField, bool Ascending)

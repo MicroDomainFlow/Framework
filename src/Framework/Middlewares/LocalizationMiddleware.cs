@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Http;
 
 using System.Globalization;
 
-namespace Framework.Middlewares;
+namespace MDF.Middlewares;
 /// <summary>
 /// Set culture, localization, or time zones based on request attributes.
 /// </summary>

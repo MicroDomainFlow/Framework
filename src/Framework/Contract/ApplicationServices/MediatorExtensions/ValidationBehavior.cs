@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace Framework.Contract.ApplicationServices.MediatorExtensions;
+namespace MDF.Contract.ApplicationServices.MediatorExtensions;
 
 /// <summary>
 /// ولیدیشن های مربوط به کتابخانه MediatR

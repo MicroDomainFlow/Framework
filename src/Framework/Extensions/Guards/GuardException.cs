@@ -1,4 +1,4 @@
-﻿namespace Framework.Extensions.Guards;
+﻿namespace MDF.Extensions.Guards;
 public class GuardException : Exception
 {
 	public GuardException()

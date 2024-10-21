@@ -1,4 +1,4 @@
-﻿namespace Framework.SeedWork;
+﻿namespace MDF.SeedWork;
 public abstract class BaseValueObject<TValue> : ValueObject
 {
 	#region Properties

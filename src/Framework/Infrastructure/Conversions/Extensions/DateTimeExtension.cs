@@ -1,9 +1,9 @@
-﻿using Framework.Extensions.Converters;
-using Framework.SeedWork;
+﻿using MDF.Extensions.Converters;
+using MDF.SeedWork;
 
 using Microsoft.EntityFrameworkCore;
 
-namespace Framework.Infrastructure.Conversions.Extensions;
+namespace MDF.Infrastructure.Conversions.Extensions;
 public static class DateTimeExtension
 {
 	public static ModelConfigurationBuilder UseDateTimeAsUtcConversion(this ModelConfigurationBuilder modelConfigurationBuilder)

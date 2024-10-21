@@ -1,6 +1,6 @@
-﻿using Framework.Contract.Persistence.Commands;
+﻿using MDF.Contract.Persistence.Commands;
 
-namespace Framework.Infrastructure.Commands;
+namespace MDF.Infrastructure.Commands;
 /// <summary>
 /// اگر از چند ریپازیتوری استفاده میکنید باید از این یونیت آو ورک استفاده کنید
 /// </summary>

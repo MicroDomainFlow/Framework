@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Framework.Infrastructure.Commands.Interceptors.Extensions;
+namespace MDF.Infrastructure.Commands.Interceptors.Extensions;
 /// <summary>
 /// Provides extension methods for configuring interceptors in DbContextOptionsBuilder.
 /// </summary>

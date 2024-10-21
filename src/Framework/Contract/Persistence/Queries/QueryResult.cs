@@ -1,4 +1,4 @@
-﻿namespace Framework.Contract.Persistence.Queries;
+﻿namespace MDF.Contract.Persistence.Queries;
 
 /// <summary>
 /// نتیجه یک کوئری را بازگشت می‌دهد

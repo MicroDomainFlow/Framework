@@ -2,7 +2,7 @@
 
 using FluentValidation;
 
-using Framework.Extensions.Results;
+using MDF.Extensions.Results;
 
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
@@ -12,7 +12,7 @@ using System.Diagnostics;
 using System.Net;
 using System.Text.Json;
 
-namespace Framework.Middlewares;
+namespace MDF.Middlewares;
 public class ExceptionHandlingMiddleware
 {
 	private readonly ILogger<ExceptionHandlingMiddleware> _logger;

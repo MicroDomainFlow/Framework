@@ -1,8 +1,8 @@
-﻿using Framework.SeedWork;
+﻿using MDF.SeedWork;
 
 using Microsoft.EntityFrameworkCore;
 
-namespace Framework.Infrastructure.Commands.ShadowProperties;
+namespace MDF.Infrastructure.Commands.ShadowProperties;
 public static class CommonShadowProperties
 {
 	/// <summary>

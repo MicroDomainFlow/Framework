@@ -1,4 +1,4 @@
-﻿namespace Framework.Logging;
+﻿namespace MDF.Logging;
 public enum LogEventId
 {
 	GenerateItems = 1000,

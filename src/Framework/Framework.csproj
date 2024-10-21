@@ -15,6 +15,7 @@
     <RepositoryUrl>https://github.com/MicroDomainFlow/Framework</RepositoryUrl>
     <PackageTags>ddd;microservice;cqrs;</PackageTags>
     <PackageId>MicroDomainFlow.BaseFramework</PackageId>
+    <RootNamespace>MDF</RootNamespace>
   </PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="FluentResults" Version="3.16.0" />
