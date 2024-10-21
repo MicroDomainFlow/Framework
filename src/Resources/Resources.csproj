@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <PackageId>MicroDomainFlow.BaseResources</PackageId>
     <Title>Resource files that are in public use.</Title>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <Authors>Arman Espiar</Authors>
     <Description>Resource of pre-prepared files for public use.</Description>
     <Copyright>MIT</Copyright>
