@@ -7,7 +7,7 @@ using MediatR;
 
 using Microsoft.AspNetCore.Mvc;
 
-namespace ContentService.Endpoints.API.Controllers;
+namespace MDF.Framework.Endpoints.Api;
 [Route("api/[controller]")]
 public abstract class BaseController : ControllerBase
 
