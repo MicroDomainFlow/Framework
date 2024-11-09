@@ -48,3 +48,8 @@
 
 ### آیتم ها (MDFItems): برای ساخت سریع کلاس های Entity و ValueObject برای دانلود و اطلاعات بیشتر [این مخزن](https://github.com/MicroDomainFlow/MDFItems "این مخزن") را ببینید.
 ### ساخت تمامی فایل ها مورد نیاز یک Aggregate در کل ساختار پروژه برای دانلود و اظلاعات بیشتر [این مخزن](https://github.com/MicroDomainFlow/AutoMDF "این مخزن") را ببینید.
+
+
+------------
+
+نحوه استفاده و صحت عملکرد این پروژه، در[ پروژه Sample](https://github.com/MicroDomainFlow/Sample " پروژه Sample") آورده شده است. در اصل این دو پروژه در کنار هم دیگر هستند که در اینجا به عنوان مخازن جدا آورده شده اند.
