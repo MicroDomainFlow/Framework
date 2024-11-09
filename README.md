@@ -53,3 +53,10 @@
 ------------
 
 نحوه استفاده و صحت عملکرد این پروژه، در[ پروژه Sample](https://github.com/MicroDomainFlow/Sample " پروژه Sample") آورده شده است. در اصل این دو پروژه در کنار هم دیگر هستند که در اینجا به عنوان مخازن جدا آورده شده اند.
+
+
+## پکیج ها:
+
+[MicroDomainFlow.BaseFramework](https://www.nuget.org/packages/MicroDomainFlow.BaseFramework "MicroDomainFlow.BaseFramework")
+
+[MicroDomainFlow.BaseResources](https://www.nuget.org/packages/MicroDomainFlow.BaseResources "MicroDomainFlow.BaseResources")
