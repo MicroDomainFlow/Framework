@@ -33,7 +33,7 @@ public abstract class Entity : IEntity
 
 	protected Entity() : base()
 	{
-		Id = Guid.NewGuid();
+		Id = Guid.CreateVersion7();
 	}
 
 	// **********
