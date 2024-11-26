@@ -15,8 +15,11 @@ public class Guard<T>
 {
 	internal T _value;
 	internal string _propertyName;
-	public Result<T> _result;
-
+	public readonly Result<T> _result;
+	public List<IError> Errors => _result.Errors;
+	public List<ISuccess> Successes => _result.Successes;
+	public bool IsSuccess => _result.IsSuccess;
+	public bool IsFailed => _result.IsFailed;
 	public Guard(T value, string propertyName)
 	{
 		_value = value;

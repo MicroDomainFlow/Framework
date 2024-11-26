@@ -52,10 +52,26 @@ public class BaseCommandEntityFrameworkRepository<TEntity, TDbContext> : IComman
 		DbContext.Set<TEntity>().Update(entity);
 	}
 
+
 	public void UpdateBy(IEnumerable<TEntity> entities)
 	{
 		DbContext.Set<TEntity>().UpdateRange(entities);
 	}
+
+	//public void UpdateAttachBy(TEntity entity)
+	//{
+	//	DbContext.Set<TEntity>().Attach(entity);
+	//	DbContext.Entry(entity).State = EntityState.Modified;
+	//}
+	//public void UpdateAttachBy(IEnumerable<TEntity> entities)
+	//{
+	//	DbContext.Set<TEntity>().AttachRange(entities);
+	//	foreach (var entity in entities)
+	//	{
+	//		DbContext.Entry(entity).State = EntityState.Modified;
+	//	}
+	//}
+
 
 	#endregion
 

@@ -44,7 +44,7 @@ public abstract class Entity : IEntity
 	public static explicit operator string(Entity entity) => entity.Id.ToString();
 	public static implicit operator Guid(Entity entity) => entity.Id;
 	// **********
-	int? _requestedHashCode;
+	protected int? _requestedHashCode;
 
 	public bool IsTransient()
 	{

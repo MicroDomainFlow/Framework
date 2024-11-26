@@ -21,15 +21,9 @@ public abstract class AggregateRoot<TAggregate> : Entity, IAggregateRoot where T
 	private readonly List<IDomainEvent> _domainEvents;
 
 	[System.Text.Json.Serialization.JsonIgnore]
-	public IReadOnlyList<IDomainEvent> DomainEvents
-	{
-		get
-		{
-			return _domainEvents;
-		}
-	}
+	public IReadOnlyList<IDomainEvent> DomainEvents => _domainEvents;
 
-	protected void RaiseDomainEvent(IDomainEvent domainEvent)
+	protected void RaiseDomainEvent(IDomainEvent? domainEvent)
 	{
 		if (domainEvent is null)
 		{
@@ -39,7 +33,7 @@ public abstract class AggregateRoot<TAggregate> : Entity, IAggregateRoot where T
 		_domainEvents?.Add(domainEvent);
 	}
 
-	protected void RemoveDomainEvent(IDomainEvent domainEvent)
+	protected void RemoveDomainEvent(IDomainEvent? domainEvent)
 	{
 		if (domainEvent is null)
 		{

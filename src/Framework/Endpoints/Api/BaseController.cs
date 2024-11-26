@@ -1,6 +1,4 @@
-﻿using AutoMapper;
-
-using MDF.Framework.Extensions.Results;
+﻿using MDF.Framework.Extensions.Results;
 using MDF.Framework.LayersContracts.ApplicationServices.MediatorExtensions.CQRS;
 
 using MediatR;
@@ -13,12 +11,11 @@ public abstract class BaseController : ControllerBase
 
 {
 	private readonly IMediator _mediator;
-	protected readonly IMapper Mapper;
 
-	protected BaseController(IMediator mediator, IMapper mapper)
+
+	protected BaseController(IMediator mediator)
 	{
 		_mediator = mediator;
-		Mapper = mapper;
 	}
 
 	private IActionResult FluentResult<T>(FluentResults.Result<T> result)
