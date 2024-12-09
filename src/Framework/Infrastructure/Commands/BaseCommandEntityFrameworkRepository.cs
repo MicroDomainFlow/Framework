@@ -12,9 +12,9 @@ namespace MDF.Framework.Infrastructure.Commands;
 /// </summary>
 /// <typeparam name="TEntity"></typeparam>
 /// <typeparam name="TDbContext"></typeparam>
-public class BaseCommandEntityFrameworkRepository<TEntity, TDbContext> : ICommandRepository<TEntity>, IUnitOfWork, IAsyncDisposable where TEntity : AggregateRoot<TEntity>
+public class BaseCommandEntityFrameworkRepository<TEntity, TDbContext> : ICommandRepository<TEntity>, IUnitOfWork, IAsyncDisposable
+	where TEntity : AggregateRoot<TEntity>
 	where TDbContext : BaseCommandDbContext
-
 {
 
 	protected readonly TDbContext DbContext;
@@ -58,21 +58,6 @@ public class BaseCommandEntityFrameworkRepository<TEntity, TDbContext> : IComman
 		DbContext.Set<TEntity>().UpdateRange(entities);
 	}
 
-	//public void UpdateAttachBy(TEntity entity)
-	//{
-	//	DbContext.Set<TEntity>().Attach(entity);
-	//	DbContext.Entry(entity).State = EntityState.Modified;
-	//}
-	//public void UpdateAttachBy(IEnumerable<TEntity> entities)
-	//{
-	//	DbContext.Set<TEntity>().AttachRange(entities);
-	//	foreach (var entity in entities)
-	//	{
-	//		DbContext.Entry(entity).State = EntityState.Modified;
-	//	}
-	//}
-
-
 	#endregion
 
 	#region insert
@@ -94,7 +79,6 @@ public class BaseCommandEntityFrameworkRepository<TEntity, TDbContext> : IComman
 		var graphPath = DbContext.GetIncludePaths(typeof(TEntity));
 		IQueryable<TEntity>? query = DbContext.Set<TEntity>().AsQueryable();
 		var enumerable = graphPath.ToList();
-		var temp = enumerable.ToList();
 		foreach (var item in enumerable)
 		{
 			query = query.Include(item);
@@ -123,7 +107,6 @@ public class BaseCommandEntityFrameworkRepository<TEntity, TDbContext> : IComman
 		var graphPath = DbContext.GetIncludePaths(typeof(TEntity));
 		var query = DbContext.Set<TEntity>().AsQueryable();
 		var enumerable = graphPath as string[] ?? graphPath.ToArray();
-		var temp = enumerable.ToList();
 		foreach (var item in enumerable)
 		{
 			query = query.Include(item);
@@ -190,10 +173,15 @@ public class BaseCommandEntityFrameworkRepository<TEntity, TDbContext> : IComman
 
 	public void Dispose()
 	{
-		if (DbContext is IDisposable dbContextDisposable)
-			dbContextDisposable.Dispose();
+		IDisposable dbContext = DbContext;
+		if (dbContext != null)
+		{
+			dbContext.Dispose();
+		}
 		else
-			_ = DbContext.DisposeAsync().AsTask();
+		{
+			DbContext.DisposeAsync().AsTask();
+		}
 	}
 
 	public ValueTask DisposeAsync()

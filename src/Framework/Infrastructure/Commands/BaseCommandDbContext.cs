@@ -60,15 +60,25 @@ public abstract class BaseCommandDbContext : DbContext
 	protected override void OnModelCreating(ModelBuilder builder)
 	{
 		base.OnModelCreating(builder);
+		//موارد زیر باید درون DbContext Command پروژه اعمال شوند
+		//اینجا فقط برای این است که محل قرار گیری به عنوان نمونه یادمان بماند
 		//	builder.AddCommonShadowProperties();
 	}
 	protected override void ConfigureConventions(ModelConfigurationBuilder configurationBuilder)
 	{
 		base.ConfigureConventions(configurationBuilder);
+		//موارد زیر باید درون DbContext Command پروژه اعمال شوند
+		//اینجا فقط برای این است که محل قرار گیری به عنوان نمونه یادمان بماند
 		//configurationBuilder.UseDateTimeAsUtcConversion();
 		//configurationBuilder.UseNullableDateTimeAsUtcConversion();
 	}
 
+	/// <summary>
+	/// برای بارگذاری یک انتیتی با تمام زیر مجموعه هاش
+	/// برای جلوگیری از نوشتن Include و thenInclude
+	/// </summary>
+	/// <param name="clrEntityType"></param>
+	/// <returns></returns>
 	public IEnumerable<string> GetIncludePaths(Type clrEntityType)
 	{
 		var entityType = Model.FindEntityType(clrEntityType);
